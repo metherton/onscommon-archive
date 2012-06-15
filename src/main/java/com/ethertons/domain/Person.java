@@ -2,7 +2,6 @@ package com.ethertons.domain;
 
 public class Person {
 
-
     private int personId;
     private String fullname;
 
@@ -29,13 +28,20 @@ public class Person {
 
         Person person = (Person) o;
 
+        if ((personId != person.personId) || theIdIsNotSetFor(person)) return false;
         if (fullname != null ? !fullname.equals(person.fullname) : person.fullname != null) return false;
 
         return true;
     }
 
+    private boolean theIdIsNotSetFor(Person person) {
+        return (personId == 0 || person.personId == 0);
+    }
+
     @Override
     public int hashCode() {
-        return fullname != null ? fullname.hashCode() : 0;
+        int result = personId;
+        result = 31 * result + (fullname != null ? fullname.hashCode() : 0);
+        return result;
     }
 }
