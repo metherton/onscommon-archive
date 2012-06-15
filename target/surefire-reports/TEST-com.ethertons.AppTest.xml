@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/metherton/workspace/onscommon"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefirebooter279461835328565821.jar"/>
+    <property name="surefire.real.class.path" value="/var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefirebooter2900550903416733937.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/"/>
     <property name="line.separator" value="
 "/>
@@ -30,22 +30,23 @@
     <property name="os.name" value="Mac OS X"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Users/metherton/Library/Java/Extensions:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="surefire.test.class.path" value="/Users/metherton/workspace/onscommon/target/test-classes:/Users/metherton/workspace/onscommon/target/classes:/Users/metherton/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/metherton/workspace/onscommon/target/test-classes:/Users/metherton/workspace/onscommon/target/classes:/Users/metherton/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:/Users/metherton/.m2/repository/org/easymock/easymock/3.0/easymock-3.0.jar:/Users/metherton/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/Users/metherton/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/metherton/.m2/repository/org/hamcrest/hamcrest-all/1.2/hamcrest-all-1.2.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.7.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/metherton"/>
     <property name="user.timezone" value=""/>
     <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
     <property name="java.specification.version" value="1.6"/>
     <property name="file.encoding" value="MacRoman"/>
     <property name="user.name" value="metherton"/>
-    <property name="java.class.path" value="/Users/metherton/workspace/onscommon/target/test-classes:/Users/metherton/workspace/onscommon/target/classes:/Users/metherton/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="java.class.path" value="/Users/metherton/workspace/onscommon/target/test-classes:/Users/metherton/workspace/onscommon/target/classes:/Users/metherton/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:/Users/metherton/.m2/repository/org/easymock/easymock/3.0/easymock-3.0.jar:/Users/metherton/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/Users/metherton/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/metherton/.m2/repository/org/hamcrest/hamcrest-all/1.2/hamcrest-all-1.2.jar:"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefirebooter279461835328565821.jar /var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefire5208788833077030611tmp /var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefire232511172343608719tmp"/>
+    <property name="sun.java.command" value="/var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefirebooter2900550903416733937.jar /var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefire6366778496433688642tmp /var/folders/3w/jdfd75gj0wn__3vdscbl_3fh0000gp/T/surefire7001113938008787785tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -60,6 +61,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="mrj.version" value="1070.1.6.0_31-415"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase time="0.001" classname="com.ethertons.AppTest" name="testApp"/>
