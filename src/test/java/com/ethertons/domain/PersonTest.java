@@ -4,6 +4,8 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.not;
 import static org.junit.Assert.assertThat;
 
+import java.util.Date;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -47,6 +49,20 @@ public class PersonTest {
 
     }
 
+    @Test
+    public void testGettersAndSetters() {
+        Person person = new Person();
+        person.setId(1);
+        person.setFullname("Mick Etherton");
+        person.setBirthDate(new Date("1 Jan 1901"));
+        person.setAddress("1 High St");
+        
+        assertThat(person.getId(), is(1));
+        assertThat(person.getFullname(), is("Mick Etherton"));
+        assertThat(person.getBirthDate(), is(new Date("1 Jan 1901")));
+        assertThat(person.getAddress(), is("1 High St"));
+    }
+    
     @Test
     public void personsAreNotEqualIfIdsAreBothZero() throws Exception {
         Person firstPerson = personDetailsToCompare.getFirstPerson();

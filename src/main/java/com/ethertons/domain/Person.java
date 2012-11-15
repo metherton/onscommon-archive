@@ -1,9 +1,13 @@
 package com.ethertons.domain;
 
+import java.util.Date;
+
 public class Person {
 
     private int personId;
     private String fullname;
+    private Date birthDate;
+    private String address;
 
     public void setId(int personId) {
         this.personId = personId;
@@ -43,5 +47,22 @@ public class Person {
         int result = personId;
         result = 31 * result + (fullname != null ? fullname.hashCode() : 0);
         return result;
+    }
+
+    public void setBirthDate(Date birthDate) {
+
+        this.birthDate = birthDate;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public String getAddress() {
+        return address;
     }
 }
