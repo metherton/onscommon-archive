@@ -10,6 +10,6 @@ public class UrlsTest {
 
     @Test
     public void urlConstantsAreCorrect() throws Exception {
-        assertThat(Urls.HOST, is("http://localhost:8080"));
+        assertThat(Urls.HOST, is("http://localhost:8080/ons"));
     }
 }
